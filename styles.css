@@ -163,9 +163,14 @@ img.article-image {
   margin: auto;
 }
 
-.team-member{
+.team-member {
   text-align: center;
   margin-bottom: 50px;
+}
+
+.team-image {
+  display:block;
+  margin:auto;
 }
 
 footer {

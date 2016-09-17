@@ -168,7 +168,7 @@ img.article-image {
   margin-bottom: 50px;
 }
 
-.team-image {
+.team-image img{
   display:block;
   margin:auto;
 }

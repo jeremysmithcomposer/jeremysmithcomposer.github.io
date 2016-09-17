@@ -163,6 +163,11 @@ img.article-image {
   margin: auto;
 }
 
+.team-member{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 footer {
   background-image: url(images/footer-background.png);
   background-size: cover;

@@ -184,6 +184,7 @@ img.article-image {
 
 .row-centered {
     text-align:center;
+    margin:auto;
 }
 
 footer {

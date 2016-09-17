@@ -176,6 +176,10 @@ img.article-image {
   margin:auto;
 }
 
+.team-text {
+  text-align:center;
+}
+
 .col-centered {
     display:inline-block;
     float:none;

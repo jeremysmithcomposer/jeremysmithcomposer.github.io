@@ -173,6 +173,15 @@ img.article-image {
   margin:auto;
 }
 
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
 footer {
   background-image: url(images/footer-background.png);
   background-size: cover;

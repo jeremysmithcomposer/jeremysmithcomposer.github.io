@@ -179,7 +179,7 @@ img.article-image {
     /* reset the text-align */
     text-align:left;
     /* inline-block space fix */
-    margin-right:-4px;
+    margin:auto;
 }
 
 .row-centered {

@@ -182,6 +182,11 @@ img.article-image {
     margin:auto;
 }
 
+.team-list {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .row-centered {
     text-align:center;
     margin:auto;

@@ -27,6 +27,16 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-pink.min.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script>
+        function validateForm() {
+            var x = document.forms["contact"]["email"].value;
+            if (x == null || x == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -65,7 +75,7 @@
                         <p>
                             Interested in purchasing a show that will work for you? Contact us today to receive your free consultation!
                         </p>
-                        <form action="https://formspree.io/southcoastmusicanddesign@gmail.com" method="post" class="">
+                        <form action="https://formspree.io/southcoastmusicanddesign@gmail.com" method="post" onsubmit="return validateForm()" class="" name="contact">
                             <input type="hidden" name="_subject" value="Someone contacted you from your website.">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                 <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name" name="name">

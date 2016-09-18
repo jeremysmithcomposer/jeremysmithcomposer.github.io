@@ -34,18 +34,23 @@
     <script>
         function validateForm() {
             var email = document.forms["contact"]["email"].value;
+            var hasError = false;
             if (email == null || email == "") {
                 document.getElementById("email-error").className += "is-dirty is-invalid is-focused";
-                return false;
+                hasError = true;
             }
             var name = document.forms["contact"]["name"].value;
             if (name == null || name == "") {
                 document.getElementById("name-error").className += "is-dirty is-invalid is-focused";
-                return false;
+                hasError = true;
             }
             var comments = document.forms["contact"]["comments"].value;
             if (comments == null || comments == "") {
                 document.getElementById("comments-error").className += "is-dirty is-invalid is-focused";
+                hasError = true;
+            }
+
+            if(hasError){
                 return false;
             }
 

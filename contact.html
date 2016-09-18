@@ -33,6 +33,8 @@
             var x = document.forms["contact"]["email"].value;
             if (x == null || x == "") {
                 alert("Email must be filled out");
+                document.getElemenentById("email-error").addClass("is-dirty");
+                document.getElemenentById("email-error").addClass("is-invalid");
                 return false;
             }
         }
@@ -82,9 +84,10 @@
                                 <label class="mdl-textfield__label" for="Name">Name...</label>
                                 <span class="mdl-textfield__error">Letters and spaces only</span>
                             </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="Email" name="email">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="email-error">
+                                <input class="mdl-textfield__input" type="text" id="Email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
                                 <label class="mdl-textfield__label" for="Email">Email...</label>
+                                <span class="mdl-textfield__error">Please enter a valid email</span>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                 <textarea class="mdl-textfield__input" type="text" rows="5" id="note" name="comments"></textarea>

@@ -35,8 +35,8 @@
         function validateForm() {
             var x = document.forms["contact"]["email"].value;
             if (x == null || x == "") {
-                document.getElementById("email-error").addClass("is-dirty");
-                document.getElementById("email-error").addClass("is-invalid");
+                document.getElementById("email-error").className += "is-dirty";
+                document.getElementById("email-error").className += "is-invalid";
                 return false;
             }
         }

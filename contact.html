@@ -31,31 +31,7 @@
     <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 
 
-    <script>
-        function validateForm() {
-            var email = document.forms["contact"]["email"].value;
-            var hasError = false;
-            if (email == null || email == "") {
-                document.getElementById("email-error").className += "is-dirty is-invalid is-focused";
-                hasError = true;
-            }
-            var name = document.forms["contact"]["name"].value;
-            if (name == null || name == "") {
-                document.getElementById("name-error").className += "is-dirty is-invalid is-focused";
-                hasError = true;
-            }
-            var comments = document.forms["contact"]["comments"].value;
-            if (comments == null || comments == "") {
-                document.getElementById("comments-error").className += "is-dirty is-invalid is-focused";
-                hasError = true;
-            }
-
-            if(hasError){
-                return false;
-            }
-
-        }
-    </script>
+    <script src="js/validate.js"> </script>
 </head>
 
 <body>

@@ -33,11 +33,22 @@
 
     <script>
         function validateForm() {
-            var x = document.forms["contact"]["email"].value;
-            if (x == null || x == "") {
+            var email = document.forms["contact"]["email"].value;
+            if (email == null || email == "") {
                 document.getElementById("email-error").className += "is-dirty is-invalid is-focused";
                 return false;
             }
+            var name = document.forms["contact"]["name"].value;
+            if (name == null || name == "") {
+                document.getElementById("name-error").className += "is-dirty is-invalid is-focused";
+                return false;
+            }
+            var comments = document.forms["contact"]["comments"].value;
+            if (comments == null || comments == "") {
+                document.getElementById("comments-error").className += "is-dirty is-invalid is-focused";
+                return false;
+            }
+
         }
     </script>
 </head>
@@ -80,7 +91,7 @@
                         </p>
                         <form action="https://formspree.io/southcoastmusicanddesign@gmail.com" method="post" onsubmit="return validateForm()" class="" name="contact">
                             <input type="hidden" name="_subject" value="Someone contacted you from your website.">
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="name-error">
                                 <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name" name="name">
                                 <label class="mdl-textfield__label" for="Name">Name...</label>
                                 <span class="mdl-textfield__error">Letters and spaces only</span>
@@ -90,7 +101,7 @@
                                 <label class="mdl-textfield__label" for="Email">Email...</label>
                                 <span class="mdl-textfield__error">Please enter a valid email</span>
                             </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="comments-error">
                                 <textarea class="mdl-textfield__input" type="text" rows="5" id="note" name="comments"></textarea>
                                 <label class="mdl-textfield__label" for="note">Enter note</label>
                             </div>

@@ -6,23 +6,23 @@
 
     
     <url>
-        <loc>http://localhost:4000/articles/2013/08/17/test-post.html</loc>
+        <loc>http://localhost:4000/articles/test-post</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/2013/08/05/the-little-prince.html</loc>
+        <loc>http://localhost:4000/articles/the-little-prince</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/2013/08/05/post-with-figure.html</loc>
+        <loc>http://localhost:4000/articles/post-with-figure</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/2013/08/05/post-with-feature.html</loc>
+        <loc>http://localhost:4000/articles/post-with-feature</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/2013/08/05/longform-post.html</loc>
+        <loc>http://localhost:4000/articles/longform-post</loc>
     </url>
     
 </urlset>

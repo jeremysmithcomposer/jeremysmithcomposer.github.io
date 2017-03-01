@@ -10,5 +10,5 @@ Twitter: @twnsndco
 
 /* SITE */                         
 Last update: 2017-02-28
-Standards:                         
-Software: 
+Standards: HTML, SCSS, Jekyll                        
+Software: git

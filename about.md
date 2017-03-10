@@ -1,26 +1,16 @@
 ---
 layout: post
 permalink: /about/index.html
-title: About the Theme
-description: Balzac is a new, fluid & responsive theme for Jekyll (and AnchorCMS). It's gloriously beautiful and suited to long form. Built on a SCSS foundation, it's organized and awesome.
+title: About Jeremy Smith
+description: 
 tags: [about, Jekyll, theme, responsive]
 image:
   feature: jeremy-header-image.png
 ---
 
-This is built on Semantic.gs grid framework which I edited a bit to make it fluid. I hope you enjoy using, forking, whatevering this theme as much as I did making it. 
+### About Jeremy
+Jeremy Smith (b.1992) is a composer of chamber works, symphonic works, vocal works, and music for dance whose influences range from popular music to Bach. Described by SET Magazine as "One of the most unique and promising talents the shoals has ever produced," he has had a number of successes in his short time as a composer. In 2015 he was the first composer to ever win the Shoals Symphony Solo Artist Contest for his work "The Fourth Wall for Symphonic Winds and Percussion". In 2016 he was selected as a resident at the Azule Artist Residency in Hot Springs, NC where he worked for a month as a resident and composer. 
 
-### Features
-* flexible, uses max-width for responsive goodness
-* responsive drop down menu
-* retina images using @2x
-* post loop in the footer showing 3 latest post
-* custom portfolio page for case studies
+Beyond the concert stage, he is a sought after collaborator across genres. He currently designs, arranges, and instructs for several groups across the country. In 2014 he served as the battery arranger and battery caption head for Southwind Drum and Bugle Corps. He currently serves as a member of the percussion staff at Music City Drum Corps and Clarksville Audio Theatre.
 
-### Acknowledgements
-I utilized my own HTML templates, but had no prior knowledge of liquid nor the required Jekyll system file format. I took [Michael Rose](http://twitter.com/mmistakes)'s theme [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/). Having a prebuilt archive and the YAML front-matter already set up was a great help. 
-
- The lovely font shown here is Calendas. For full splendor on your blog, I suggest you [head over and buy that](http://calendasplus.com/). The full family is 3 weights and costs $3. Many thanks to Daniel Bruce for the wonderful Entypo icons. Those can be picked up at [entypo.com](http://entypo.com), but are included with the source files. It's also <b>retina ready</b> via retina.js. Check out how that works over at [retinajs.com](http://retinajs.com).
-
-### The Name
-Balzac was a famous writer, known for his beautiful prose. I read some Balzac in school, but mostly feel comfort in the name of my favorite coffee shop in Stratford, Ontario. 
+Jeremy is currently attending the University of North Alabama where he is finishing a Degree in Instrumental Music with a focus in Music Theory and Composition and a minor in Philosophy.

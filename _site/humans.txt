@@ -1,6 +1,6 @@
 /* TEAM */
-Creator: 
-Contact: 
+Creator: Jeremy Smith
+Contact: jeremysmith222@gmail.com
 Twitter: 
 Location: 
                            
@@ -9,6 +9,6 @@ Creator of Balzac theme: Cole Townsend
 Twitter: @twnsndco
 
 /* SITE */                         
-Last update: 2017-03-01
+Last update: 2017-03-10
 Standards: HTML, SCSS, Jekyll                        
 Software: git

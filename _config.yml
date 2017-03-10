@@ -3,18 +3,18 @@ tagline:          Composer
 description:      Website for composer Jeremy Smith
 # canonical: http://jekyll.gtat.me
 
-# Owner/author information
-# owner:
-#   name:           Dillon Wastrack
-#   avatar:         avatar.png
-#   bio:            "Aesthete & Athlete"
-#   email:          cole@coletownsend.com
-#   twitter:        twnsndco
-#   github:         coletownsend
-#   instagram:      ctrunsthis
-#   dribbble:       coletownsend
-#   disqus:         balzac
-#   location:       "Buffalo, NY"
+#Owner/author information
+owner:
+  name:           Jeremy Smith
+  # avatar:         avatar.png
+  # bio:            "Aesthete & Athlete"
+  email:          jeremysmith222@gmail.com
+  # twitter:        twnsndco
+  # github:         coletownsend
+  # instagram:      ctrunsthis
+  # dribbble:       coletownsend
+  # disqus:         balzac
+  # location:       "Buffalo, NY"
   # Plug in your disqus shortname!
 
 tools:

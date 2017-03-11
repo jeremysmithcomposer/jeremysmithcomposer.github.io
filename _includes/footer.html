@@ -2,8 +2,9 @@
   <footer>
     <aside class="wrap">
       <ol class="prev-posts">
-        <p class="list-title">Recent Posts</p>
-        {% for post in site.posts | limit:3 %} <!-- for1 -->
+        <p class="list-title">Read The Azure Journals</p>
+        {% assign items = site.posts | sort: 'date' | reversed %}
+        {% for post in items limit:1 %} <!-- for1 -->
             <li>
               <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="date">{{post.date | date: "%b %d, %Y" }}</span>

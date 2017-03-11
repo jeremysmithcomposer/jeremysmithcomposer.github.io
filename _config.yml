@@ -63,7 +63,12 @@ include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
 
 collections:
-  works:
+  chamber-works:
+    output: true
+    defaults:
+      values:
+        layout: post
+  larger-works:
     output: true
     defaults:
       values:

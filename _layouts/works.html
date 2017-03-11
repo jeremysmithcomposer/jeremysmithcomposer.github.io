@@ -15,12 +15,24 @@
         <section class="article archive">
           <article class="archive-wrap">
               <ol class="post-list">
-                 <lh><h2><span class="bb">{{ page.title }}</span></h2></lh>
-                  {% for work in site.works %}
+                 <lh><h2><span class="bb">Chamber Works</span></h2></lh>
+                  {% for work in site.chamber-works %}
                   <li>
                     <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                         <h1><a href="{{ site.url }}{{ work.url }}">{{ work.title }}</a></h1>
-                        <p class="">{% if work.description %}{{ work.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ work.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+                        <p class="">{% if work.instrumentation %}{{ work.instrumentation }}{% endif %}</p>
+                    </div>
+                  </li>
+                  {% endfor %}
+              </ol>
+
+              <ol class="post-list">
+                 <lh><h2><span class="bb">Larger Works</span></h2></lh>
+                  {% for work in site.larger-works %}
+                  <li>
+                    <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                        <h1><a href="{{ site.url }}{{ work.url }}">{{ work.title }}</a></h1>
+                        <p class="">{% if work.instrumentation %}{{ work.instrumentation }}{% endif %}</p>
                     </div>
                   </li>
                   {% endfor %}

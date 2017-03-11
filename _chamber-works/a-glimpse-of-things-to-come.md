@@ -1,8 +1,8 @@
 ---
 layout: work
 title: A Glimpse of Things to Come
-category: works
-date: 2016-06-22
+category: chamber-works
+instrumentation: "Brass Quintet"
 ---
 
 For Brass Quintet.

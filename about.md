@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /about/index.html
+permalink: /biography/index.html
 title: Biography
 description: 
 tags: [about, Jekyll, theme, responsive]

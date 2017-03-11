@@ -59,3 +59,11 @@ permalink:   /:categories/:title
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:
+        feature: jeremy-header-image.png

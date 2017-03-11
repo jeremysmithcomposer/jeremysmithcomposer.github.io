@@ -7,7 +7,7 @@
   {% if page.image.feature contains 'https://' | escape or page.image.feature contains 'http://' | escape %}
   <div class="featured-image" style="background-image: url({{ page.image.feature }}); {{ page.headerStyle }}"></div>
   {% else %}
-  <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }}); {{ page.headerStyle }}"></div>
+  <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }}); {{ page.headerImageStyle }}"></div>
   {% endif %}
 {% else %}
   <div class="overlay"></div>

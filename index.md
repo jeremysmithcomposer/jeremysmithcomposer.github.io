@@ -1,4 +1,4 @@
 ---
 layout: home
-title: "Recent Posts"
+title: "The Azure Journals"
 ---

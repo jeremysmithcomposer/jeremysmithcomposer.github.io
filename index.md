@@ -1,4 +1,4 @@
 ---
 layout: home
-title: "The Azure Journals"
+title: "The Azule Journals"
 ---

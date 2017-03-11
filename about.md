@@ -2,8 +2,6 @@
 layout: post
 permalink: /biography/index.html
 title: Biography
-description: 
-tags: [about, Jekyll, theme, responsive]
 image:
   feature: jeremy-header-image.png
 ---

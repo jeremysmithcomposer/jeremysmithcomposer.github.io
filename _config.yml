@@ -11,7 +11,8 @@ owner:
   email:          jeremysmith222@gmail.com
   # twitter:        twnsndco
   # github:         coletownsend
-  # instagram:      ctrunsthis
+  instagram:      https://www.instagram.com/squirmyjermy/
+  facebook:       https://www.facebook.com/J.Taff.Smith
   # dribbble:       coletownsend
   # disqus:         balzac
   # location:       "Buffalo, NY"
@@ -32,6 +33,8 @@ links:
     url: /biography
   - title: Works
     url: /works
+  - title: Contact
+    url: /contact
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago

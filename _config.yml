@@ -30,6 +30,8 @@ opengraph:
 links:
   - title: Biography
     url: /biography
+  - title: Works
+    url: /works
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
@@ -59,6 +61,13 @@ permalink:   /:categories/:title
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+
+collections:
+  works:
+    output: true
+    defaults:
+      values:
+        layout: post
 
 defaults:
   -

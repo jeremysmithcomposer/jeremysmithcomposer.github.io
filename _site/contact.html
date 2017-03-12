@@ -92,7 +92,7 @@
 
 <div class="container">
 
-    <form class="well form-horizontal" action="https://formspree.io/jeremysmith222@gmail.com" method="post"  id="contact_form">
+    <form class=" form-horizontal" action="https://formspree.io/jeremysmith222@gmail.com" method="post"  id="contact_form">
 <fieldset>
 
 <!-- Form Name -->
@@ -142,9 +142,18 @@
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-  <input name="phone" placeholder="(845)555-1212" class="form-control" id="phone"t ype="text">
+  <input name="phone" placeholder="(845)555-1212" class="form-control" id="phone" type="text">
     </div>
   </div>
+</div>
+
+<div class="form-group" id="comment_div">
+  <label class="col-md-4 control-label" for="comment">Comment:</label>
+  <div class="col-md-4 inputGroupContainer">
+    <div class="input-group col-xs-12">
+      <textarea class="form-control" rows="5" id="comment" style=""></textarea>
+    </div>
+  </div> 
 </div>
 
 
@@ -249,6 +258,15 @@
       else{
         $('#phone_div').removeClass('has-error');
         $('#phone_div').addClass('has-success');
+      }
+      if(!$('#comment').val()){
+
+        $('#comment_div').addClass('has-error');
+        isValid = false;
+      }
+      else{
+        $('#comment_div').removeClass('has-error');
+        $('#comment_div').addClass('has-success');
       }
       if(!isValid){
         return;

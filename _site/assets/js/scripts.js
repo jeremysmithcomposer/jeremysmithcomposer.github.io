@@ -37,7 +37,7 @@ $(function(){
         imgUrl = imgUrl[1]; // Captured subexpression.
       }
       return imgUrl;
-  }).load(function(){
+  }).on('load',function(){
     $('img.loading').fadeOut(500);
     $('div.overlay').fadeTo("slow", 0.6);
   });

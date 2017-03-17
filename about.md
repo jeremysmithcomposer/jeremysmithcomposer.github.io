@@ -2,8 +2,6 @@
 layout: post
 permalink: /biography/index.html
 title: Biography
-image:
-  feature: jeremy-header-image.png
 ---
 
 Jeremy Smith (b.1992) is a composer of chamber works, symphonic works, vocal works, and music for dance whose influences range from popular music to Bach. Described by SET Magazine as "One of the most unique and promising talents the shoals has ever produced," he has had a number of successes in his short time as a composer. In 2015 he was the first composer to ever win the Shoals Symphony Solo Artist Contest for his work "The Fourth Wall for Symphonic Winds and Percussion". In 2016 he was selected as a resident at the Azule Artist Residency in Hot Springs, NC where he worked for a month as a resident and composer. 

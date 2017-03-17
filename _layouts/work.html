@@ -14,6 +14,13 @@
           </hgroup>
         </header>
 
+        {% if page.soundCloud %}
+        {{ page.soundCloud }}
+        {% endif %}
+        {% if page.youTube %}
+        {{ page.youTube }}
+        {% endif %}
+
         {{ content }}
 
         <div class="PageNavigation">

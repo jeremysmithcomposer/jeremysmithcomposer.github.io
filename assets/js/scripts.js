@@ -18,6 +18,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    $('#textSection').fadeIn("slow", function(){})
     var vpH = $(window).height();
     var vH = vpH - 350;
     $('.overlay').css("height", vH);

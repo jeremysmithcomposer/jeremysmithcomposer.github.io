@@ -17,7 +17,6 @@ $(document).ready(function() {
 
 });
 
-$('.textSection').fadeIn("slow", function(){});
 
 $(document).ready(function() {
     var vpH = $(window).height();
@@ -41,8 +40,9 @@ $(function(){
       return imgUrl;
   }).on('load',function(){
     $('img.loading').fadeOut(500);
-    $('div.overlay').fadeTo("slow", 0.6);
-    $('div.home-overlay').fadeTo("slow", .2);
+    $('div.overlay').fadeTo("slow", 0.5);
+    $('.textSection').fadeIn("slow", function(){});
+    $('div.home-overlay').fadeTo("slow", .5);
   });
 });
 

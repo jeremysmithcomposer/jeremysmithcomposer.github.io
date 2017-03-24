@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: about
 permalink: /biography/index.html
 title: Biography
 ---

@@ -9,31 +9,36 @@
       <article class="wrap post">
         <header class="post-header">
           <hgroup>
-            <h1>{{page.title}}</h1>
-            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
+            <div style="display:none" class="textSection">
+              <h1>{{page.title}}</h1>
+              <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
+            </div>  
           </hgroup>
         </header>
 
-        {% if page.soundCloud %}
-        {{ page.soundCloud }}
-        {% endif %}
-        {% if page.youTube %}
-        {{ page.youTube }}
-        {% endif %}
-        {% if page.audio %}
-        {{ page.audio }}
-        {% endif %}
+        <div style="display:none" class="textSection">
 
-        {{ content }}
+          {% if page.soundCloud %}
+          {{ page.soundCloud }}
+          {% endif %}
+          {% if page.youTube %}
+          {{ page.youTube }}
+          {% endif %}
+          {% if page.audio %}
+          {{ page.audio }}
+          {% endif %}
 
-        <div class="PageNavigation">
-          {% if page.previous.url %}
-            <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-          {% endif %}
-          {% if page.next.url %}
-            <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-          {% endif %}
-        </div>
+          {{ content }}
+
+          <div class="PageNavigation">
+            {% if page.previous.url %}
+              <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+            {% endif %}
+            {% if page.next.url %}
+              <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+            {% endif %}
+          </div>
+        </div>  
 
       <!-- <a class="share" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.canonical }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true">Share</a> -->
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

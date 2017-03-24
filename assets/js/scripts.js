@@ -42,6 +42,7 @@ $(function(){
   }).on('load',function(){
     $('img.loading').fadeOut(500);
     $('div.overlay').fadeTo("slow", 0.6);
+    $('div.home-overlay').fadeTo("slow", .2);
   });
 });
 

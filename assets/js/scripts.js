@@ -26,6 +26,19 @@ $(document).ready(function() {
 });
 
 
+$(document).ready(function () {
+    //$('#splash').css('opacity', '0.5'); // doing this with jQuery for ease
+    //$('#splashImage').css('opacity', '1');
+
+    // here are the basics, just like your existing code
+    $('html, body').css('overflowY', 'hidden'); 
+    $("#splash").click(function () {
+        $('html, body').css('overflowY', 'auto'); 
+        $("#splash").fadeOut("slow"); // you could also use $(this).fadeOut('slow');
+    });
+});
+
+
 $(function(){
   $('<img>').attr('src',function(){
       var imgUrl = $('div.featured-image').css('background-image');

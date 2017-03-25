@@ -30,7 +30,7 @@ $(document).ready(function () {
     //$('#splash').css('opacity', '0.5'); // doing this with jQuery for ease
     //$('#splashImage').css('opacity', '1');
 
-    // here are the basics, just like your existing code
+    $("html, body").animate({ scrollTop: 0 }, "slow");
     $('html, body').css('overflowY', 'hidden'); 
     $("#splash").click(function () {
         $('html, body').css('overflowY', 'auto'); 

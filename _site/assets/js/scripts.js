@@ -32,9 +32,10 @@ $(document).ready(function () {
 
     $("html, body").animate({ scrollTop: 0 }, "slow");
     $('html, body').css('overflowY', 'hidden'); 
-    $('html.touch, body').css('overflowY', 'hidden'); 
+    $('html, body').addClass('noScroll');
     $("#splash").click(function () {
-        $('html.touch, body').css('overflowY', 'auto'); 
+        $('html, body').css('overflowY', 'auto'); 
+        $('html, body').removeClass('noScroll');
         $("#splash").fadeOut("slow"); // you could also use $(this).fadeOut('slow');
     });
 });

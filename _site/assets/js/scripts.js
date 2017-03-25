@@ -30,14 +30,20 @@ $(document).ready(function () {
     //$('#splash').css('opacity', '0.5'); // doing this with jQuery for ease
     //$('#splashImage').css('opacity', '1');
 
-    $('html,body').scrollTop(0);
-    $('html, body').css('overflowY', 'hidden'); 
-    $('html, body').addClass('noScroll');
-    $("#splash").click(function () {
-        $('html, body').css('overflowY', 'auto'); 
-        $('html, body').removeClass('noScroll');
-        $("#splash").fadeOut("slow"); // you could also use $(this).fadeOut('slow');
-    });
+    if(localStorage.getItem('hasSeenSplashPage') !== 'true'){
+        $("#splash").show();
+        $('html,body').scrollTop(0);
+        $('html, body').css('overflowY', 'hidden'); 
+        $('html, body').addClass('noScroll');
+        $("#splash").click(function () {
+          localStorage.setItem('hasSeenSplashPage', 'true');
+          $('html, body').css('overflowY', 'auto'); 
+          $('html, body').removeClass('noScroll');
+          $("#splash").fadeOut("slow"); // you could also use $(this).fadeOut('slow');
+        });
+    }
+
+   
 });
 
 

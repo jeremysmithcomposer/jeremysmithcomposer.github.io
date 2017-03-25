@@ -30,7 +30,7 @@ $(document).ready(function () {
     //$('#splash').css('opacity', '0.5'); // doing this with jQuery for ease
     //$('#splashImage').css('opacity', '1');
 
-    $("html, body").animate({ scrollTop: 0 }, "slow");
+    $('html,body').scrollTop(0);
     $('html, body').css('overflowY', 'hidden'); 
     $('html, body').addClass('noScroll');
     $("#splash").click(function () {

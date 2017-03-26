@@ -6,17 +6,9 @@ description:      Website for composer Jeremy Smith
 #Owner/author information
 owner:
   name:           Jeremy Smith
-  # avatar:         avatar.png
-  # bio:            "Aesthete & Athlete"
   email:          jeremysmith222@gmail.com
-  # twitter:        twnsndco
-  # github:         coletownsend
   instagram:      https://www.instagram.com/squirmyjermy/
   facebook:       https://www.facebook.com/J.Taff.Smith
-  # dribbble:       coletownsend
-  # disqus:         balzac
-  # location:       "Buffalo, NY"
-  # Plug in your disqus shortname!
 
 tools:
   standards:      "HTML, SCSS, Jekyll"

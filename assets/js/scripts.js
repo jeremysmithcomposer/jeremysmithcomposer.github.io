@@ -13,8 +13,6 @@ $(document).ready(function() {
   });
 
 
-  $('article.post iframe').wrap('<div class="video-container" />');
-
 });
 
 
